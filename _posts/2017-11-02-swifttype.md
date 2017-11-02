@@ -42,3 +42,25 @@ struct：值类型，具有存储属性
 
 class:引用类型，具胡存储属性。
 
+<h3>何时使用值类型</h3>
+
+1、需要比较时？（A1 == A2）需要实现Equatable协议
+
+
+{% highlight ruby %}
+
+extension Point: Equatable { }
+func ==(lhs: Point, rhs: Point) -> Bool {
+  return lhs.x == rhs.x && lhs.y == rhs.y
+}
+
+{% endhighlight %}
+
+2、副本各自独立
+
+3、数据将被用于多个线程（不懂），线程可以拥有唯一数据
+
+<h3>何时引用类型</h3>
+
+
+
