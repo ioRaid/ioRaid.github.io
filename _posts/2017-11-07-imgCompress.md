@@ -7,8 +7,4 @@ description: 图片压缩
 ---
 
 
-
-
-<h3>图片压缩</h3>
-
-<img src="{{ site.BASE_PATH }}/assets/post/imgCompress.svg" ></img>
+<img src="{{ site.BASE_PATH }}/assets/post/imgCompress.svg" />
