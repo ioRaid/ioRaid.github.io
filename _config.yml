@@ -22,7 +22,7 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: GitHub,     in_site: false,  description: Raider's GitHub,    url: 'https://ioraid.github.io'}
+    - {title: GitHub,     in_site: false,  description: Raider's GitHub,    url: 'https://github.com/ioRaid'}
     - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
     - {title: 关于,        in_site: true,  description: 关于作者,       url: '/info/about'}
     
