@@ -8,4 +8,4 @@ description: NSOperation
 
 
 
-<img src="{{ site.BASE_PATH }}/assets/post/NSOperation.png" />
+<img src="{{ site.BASE_PATH }}/assets/post/NSOperation.svg" />
