@@ -34,4 +34,4 @@ CAShapeLayer *layer = [CAShapeLayer layer];
 
 <img src="{{ site.BASE_PATH }}/assets/post/pai.png" ></img>
 
-<img src="{{ site.BASE_PATH }}/assets/post/p.png" ></img>
+<img src="{{ site.BASE_PATH }}/assets/post/halfpai.png" ></img>
