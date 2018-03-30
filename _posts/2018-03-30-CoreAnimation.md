@@ -31,3 +31,7 @@ CAShapeLayer *layer = [CAShapeLayer layer];
     layer.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInteger:2],[NSNumber numberWithInteger:13],nil];
     
 {% endhighlight %}
+
+<img src="{{ site.BASE_PATH }}/assets/post/pai.png" ></img>
+
+<img src="{{ site.BASE_PATH }}/assets/post/p.png" ></img>
