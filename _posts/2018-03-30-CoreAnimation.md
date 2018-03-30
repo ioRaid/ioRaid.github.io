@@ -10,6 +10,17 @@ description: CoreAnimation CAShapeLayer
 
 {% highlight ruby %}
 
+strokeStart和strokeEnd
+    
+这两个属性的值在0~1之间，0代表Path的开始位置，1代表Path的结束位置。是一种线性递增关系。strokeStart默认值为0，strokeEnd默认值为1。这两个属性都支持动画。
+
+{% endhighlight %}
+
+
+<h3>CAShapeLayer code</h3>
+
+{% highlight ruby %}
+
 CAShapeLayer *layer = [CAShapeLayer layer];
     layer.frame         = myView.frame;                // 与showView的frame一致
     layer.strokeColor   = [UIColor blueColor].CGColor;   // 边缘线的颜色
@@ -18,5 +29,5 @@ CAShapeLayer *layer = [CAShapeLayer layer];
     layer.path          = path.CGPath;                    // 从贝塞尔曲线获取到形状
     layer.lineWidth     = 4.0f;                           // 线条宽度
     layer.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInteger:2],[NSNumber numberWithInteger:13],nil];
-
+    
 {% endhighlight %}
