@@ -45,6 +45,16 @@ CAShapeLayer 结合 CAGradientLayer 实现 圈内颜色激变
 
 {% endhighlight %}
 
+<h3>CAGradientLayer属性</h3>
+
+
+{% highlight ruby %}
+
+
+
+{% endhighlight %}
+
+
 <img src="{{ site.BASE_PATH }}/assets/post/pai.png" ></img>
 
 <img src="{{ site.BASE_PATH }}/assets/post/halfpai.png" ></img>
