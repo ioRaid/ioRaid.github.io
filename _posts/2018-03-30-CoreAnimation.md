@@ -32,6 +32,19 @@ CAShapeLayer *layer = [CAShapeLayer layer];
     
 {% endhighlight %}
 
+
+<h3>Layer mask</h3>
+
+
+{% highlight ruby %}
+
+CAShapeLayer 结合 CAGradientLayer 实现 圈内颜色激变
+利用mask属性（压缩机饼干）
+ CAGradientLayer.mask = CAShapeLayer;
+
+
+{% endhighlight %}
+
 <img src="{{ site.BASE_PATH }}/assets/post/pai.png" ></img>
 
 <img src="{{ site.BASE_PATH }}/assets/post/halfpai.png" ></img>
