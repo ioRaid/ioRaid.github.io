@@ -19,7 +19,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 {% highlight ruby %}
 
-官方的命令是官方命令：\curl -sSL https://get.rvm.io | bash -s stable
+命令：\curl -sSL https://get.rvm.io | bash -s stable
 
 rvm list known
 
