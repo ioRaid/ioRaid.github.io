@@ -23,3 +23,6 @@ description: 图片压缩
 
 
 <img src="{{ site.BASE_PATH }}/assets/post/imgCompress.svg" />
+
+
+<a href="https://note.youdao.com/share/?id=c66e46ed804849833a3189952afcf2c0&type=note#/" target="_blank">参考</a>
