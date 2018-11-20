@@ -24,4 +24,4 @@ description: self super 区别
 {% endhighlight %}
 
 
-<a href="https://blog.csdn.net/Loving_iOS/article/details/49884599">参考</a>
+<a href="https://blog.csdn.net/Loving_iOS/article/details/49884599"  target="_blank">参考</a>
